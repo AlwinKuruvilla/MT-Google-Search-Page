@@ -2,13 +2,28 @@ body {
     margin-top: 100px;
 }
 
+button {
+    margin: 0 auto;
+}
+
+a {
+    color: gray;
+    padding-left: 30px;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+}
+
 footer {
-    background: lightslategray;
+    background: lightgray;
 }
 
 .center {
-    margin: auto;
-    width: 50%;
+    margin: 20px auto;
+}
+
+.search-buttons {
+    display: flex;
 }
 
 #footer-left-links {
@@ -22,9 +37,17 @@ footer {
 #google-logo {
     height: 92px;
     width: 272px;
-    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #search-box {
-    width: 300px;
+    height: 44px;
+    width: 580px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 24px;
+    border: 1px solid lightgray;
+
 }
