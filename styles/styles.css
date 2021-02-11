@@ -1,7 +1,14 @@
+body {
+    margin-top: 100px;
+}
+
+footer {
+    background: lightslategray;
+}
+
 .center {
     margin: auto;
     width: 50%;
-    margin-top: 100px;
 }
 
 #footer-left-links {
@@ -10,4 +17,14 @@
 
 #footer-right-links {
 
+}
+
+#google-logo {
+    height: 92px;
+    width: 272px;
+    margin: auto;
+}
+
+#search-box {
+    width: 300px;
 }
